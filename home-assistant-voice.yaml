@@ -1552,16 +1552,9 @@ speaker:
     sample_rate: 48000
     bits_per_sample: 16
 
-sendspin:
-  id: sendspin_hub
-  task_stack_in_psram: true
-  kalman_process_error: 0.01
-
 http_request:
 
 media_source:
-  - platform: sendspin
-    id: sendspin_source
   - platform: http_request
     id: http_source
     buffer_size: 500000
