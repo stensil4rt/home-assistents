@@ -1595,8 +1595,6 @@ media_source:
         file: ${error_cloud_expired_sound_file}
 
 media_player:
-  - platform: sendspin
-    id: sendspin_group_media_player
   - platform: speaker_source
     id: external_media_player
     name: Media Player
@@ -1616,7 +1614,6 @@ media_player:
     sources:
       - file_source
       - http_source
-      - sendspin_source
     on_mute:
       - script.execute: control_leds
     on_unmute:
