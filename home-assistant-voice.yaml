@@ -1690,7 +1690,7 @@ external_components:
       type: git
       url: https://github.com/esphome/esphome
       ref: a6c0a861a014e64c67d46115eba8e5370777b80a
-    components: [mdns, sendspin]
+    components: [mdns]
   - source:
       # https://github.com/esphome/esphome/pull/12429
       type: git
